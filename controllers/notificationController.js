@@ -63,7 +63,7 @@ class NotificationController {
     }
   }
 
-  //标记所有通知为已读
+
   async markAllAsRead(req, res) {
     try {
       const { userId } = req.body;

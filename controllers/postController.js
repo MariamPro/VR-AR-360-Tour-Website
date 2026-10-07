@@ -12,7 +12,7 @@ class PostController {
       if (!userId) {
         return res.status(400).json({
           success: false,
-          message: 'معرف المستخدم مطلوب'
+         message: "يجب تسجيل الدخول" 
         });
       }
 
@@ -113,7 +113,7 @@ class PostController {
       if (!userId) {
         return res.status(400).json({
           success: false,
-          message: 'معرف المستخدم مطلوب'
+           message: "يجب تسجيل الدخول" 
         });
       }
 
@@ -140,7 +140,7 @@ class PostController {
       if (!userId) {
         return res.status(400).json({
           success: false,
-          message: 'معرف المستخدم مطلوب'
+         message: "يجب تسجيل الدخول" 
         });
       }
 
@@ -167,7 +167,7 @@ class PostController {
       if (!userId) {
         return res.status(400).json({
           success: false,
-          message: 'معرف المستخدم مطلوب'
+           message: "يجب تسجيل الدخول" 
         });
       }
 
@@ -193,7 +193,7 @@ class PostController {
       if (!userId) {
         return res.status(400).json({
           success: false,
-          message: 'معرف المستخدم مطلوب'
+          message: "يجب تسجيل الدخول" 
         });
       }
 
